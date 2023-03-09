@@ -21,6 +21,7 @@ APIKEY = "YOUR_API_KEY"
 QUESTIONS_ENDPOINT = "questions"
 ANSWERS_ENDPOINT = "answers"
 USERS_ENDPOINT = "users"
+COMMENTS_ENDPOINT = "comments"
 
 
 def get_items(endpoint, filter_id=''):
@@ -385,7 +386,8 @@ def write_csv(file_name, header, data):
 
 
 if __name__ == '__main__':
-    get_items(QUESTIONS_ENDPOINT, "!t-MolHjKtPLQXQGxGwuxRiz2FAIbzBW")
-    get_items(ANSWERS_ENDPOINT, "!1zhxWdTMzIx6vivJYIYoB")
-    get_items(USERS_ENDPOINT, "!LnO)*TtSsJGGD5.dHo0NYN")
+    get_items(QUESTIONS_ENDPOINT, "!)5e(i1.Ddr5yXDb)b_08_w7zC7EU")
+    get_items(ANSWERS_ENDPOINT, "!0STj96Z7Y9UC3iA)FAMZEzUwX")
+    get_items(USERS_ENDPOINT, "!6Wfm_gS8Xe(WU")
+    get_items(COMMENTS_ENDPOINT, "!nOedRLmEXx")
     create_usage_report()
